@@ -2,10 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig({
-  base: "/Portfolio/", // 👈 ESTO ES CLAVE
+export default defineConfig(({ command }) => ({
+  base: command === "serve" ? "/" : "/Portfolio/",
   plugins: [
     react(),
     tailwindcss(),
   ],
-})
+}))
