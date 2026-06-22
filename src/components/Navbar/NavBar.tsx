@@ -6,13 +6,17 @@ function Navbar() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-20 py-4 md:py-5 flex justify-between items-center">
 
-        {/* IZQUIERDA */}
+       
         <div className="flex items-center gap-3 sm:gap-4 md:gap-5">
-          <FaGithub className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-300 hover:text-purple-400 transition" />
-          <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-300 hover:text-purple-400 transition" />
+          <a href="https://github.com/FlorLavie" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-300 hover:text-purple-400 transition" />
+          </a>
+          <a href="https://www.linkedin.com/in/florencia-lavie" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-gray-300 hover:text-purple-400 transition" />
+          </a>
         </div>
 
-        {/* DERECHA */}
+ 
         <nav className="hidden md:flex items-center gap-6 lg:gap-10 text-sm md:text-base text-gray-200">
           <a href="#projects" className="hover:text-purple-400 transition font-medium">
             Proyectos
@@ -22,9 +26,7 @@ function Navbar() {
             Habilidades
           </a>
 
-          <a href="#contact" className="hover:text-purple-400 transition font-medium">
-            Contacto
-          </a>
+        
         </nav>
 
       </div>

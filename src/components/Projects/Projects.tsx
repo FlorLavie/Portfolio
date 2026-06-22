@@ -4,29 +4,27 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      title: "Proyecto Full Stack",
+      title: "Sistema de Gestión para Centro de Actividades Físicas",
       description:
-        "Aplicación web completa con frontend en React y backend en Node.js. Incluye autenticación de usuarios, APIs REST y base de datos.",
-      tech: ["React", "Node.js", "Express", "MySQL"],
-      image:
-        "https://videocursos.co/wp-content/uploads/2023/09/full-stack.webp",
-      github: "#",
-      demo: "#",
+        "Sistema web para la gestión integral de un centro de actividades: registro y login de usuarios, gestión de empleados, profesores y clientes, administración de clases, reservas y membresías.",
+      tech: ["React", "TypeScript", "Vite", "Rust"],
+      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop",
+      link: "https://github.com/canizafa/sistema-cef",
+      linkLabel: "Ver código",
     },
     {
-      title: "Proyecto Testing QA",
+      title: "CMS de Testimonios",
       description:
-        "Testing manual de aplicaciones web con casos de prueba, reporte de bugs y validación con Postman.",
-      tech: ["Testing QA", "Postman", "Test Cases"],
-      image:
-        "https://img.freepik.com/vector-gratis/pruebas-software-personaje-dibujos-animados-programador-lupa-busca-defectos-programa-aplicacion-errores-errores-riesgos-software-ilustracion-metafora-concepto-aislado-vector_335657-2742.jpg",
-      github: "#",
-      demo: "#",
+        "Aplicación web tipo CMS desarrollada en equipo de 4 personas bajo metodología ágil. Frontend con React, Vite y Tailwind CSS integrado a una API REST con Node.js y Express.",
+      tech: ["React", "TypeScript", "Node.js", "Express"],
+      image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&auto=format&fit=crop",
+      link: "https://testimonial-cms-main.vercel.app",
+      linkLabel: "Ver proyecto",
     },
   ];
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-20 py-16 md:py-20">
+    <section id="projects" className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-20 py-16 md:py-20">
 
       {/* TITULO */}
       <div className="text-center mb-12 md:mb-20">
