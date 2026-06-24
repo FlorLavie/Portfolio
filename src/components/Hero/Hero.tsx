@@ -20,7 +20,7 @@ function Hero() {
           Estudiante avanzada de la carrera Analista Programador Universitario (UNLP) 
           con formación en desarrollo Full Stack y conocimientos en diseño. 
           Participé en proyectos colaborativos desarrollando aplicaciones web con React, TypeScript, Node.js, SQL y Git. 
-          Valoro el trabajo en equipo y el desarrollo bajo metodologías ágiles.
+          
         </p>
 
         {/* BOTONES */}
