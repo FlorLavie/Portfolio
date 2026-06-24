@@ -1,4 +1,5 @@
-import foto from '../../assets/3.png'
+// Cambiá la ruta acá si "assets" está un nivel más arriba (../assets/3.png)
+import foto from '../../assets/3.png';
 
 function Hero() {
   return (
@@ -24,20 +25,26 @@ function Hero() {
 
         {/* BOTONES */}
         <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
-          <button className="bg-purple-500 text-gray-200 hover:bg-purple-600 transition px-5 py-3 rounded-lg font-medium">
+          <a
+            href="#projects"
+            className="bg-purple-500 text-gray-200 hover:bg-purple-600 transition px-5 py-3 rounded-lg font-medium text-center"
+          >
             Ver proyectos
-          </button>
+          </a>
 
-          <button className="border text-purple-400 border-purple-400 px-5 py-3 rounded-lg hover:bg-purple-400/10 transition">
+          <a
+            href="/Florencia-Lavie-CV.pdf"
+            download="Florencia_Lavie_CV.pdf"
+            className="border text-purple-400 border-purple-400 px-5 py-3 rounded-lg hover:bg-purple-400/10 transition text-center"
+          >
             Descargar CV
-          </button>
+          </a>
         </div>
       </div>
 
       {/* IMAGEN */}
       <div className="flex justify-center md:justify-end mt-10 md:mt-0">
         <div className="relative">
-
           {/* Glow */}
           <div className="absolute inset-0 rounded-full bg-purple-500/20 blur-3xl"></div>
 
@@ -46,7 +53,6 @@ function Hero() {
             src={foto}
             alt="Florencia"
             className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 object-cover object-top rounded-full border-2 border-purple-500 opacity-80"
-
           />
         </div>
       </div>
