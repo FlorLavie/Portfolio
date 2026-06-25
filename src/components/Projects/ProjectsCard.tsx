@@ -9,7 +9,7 @@ type ProjectProps = {
 
 function ProjectCard({ title, description, tech, image, link, linkLabel }: ProjectProps) {
   return (
-    <div className="w-full bg-[#1e293b] rounded-2xl overflow-hidden border border-gray-700 hover:border-purple-400/40 transition hover:-translate-y-1 hover:shadow-md hover:shadow-purple-500/10">
+    <div className="w-full bg-[#1e293b] rounded-2xl overflow-hidden border border-gray-700 hover:border-purple-400 transition hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/20">
 
       {/* IMAGEN */}
       <img

@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-[#0f172a] text-gray-200;
+  @apply text-gray-200;
+  background: radial-gradient(ellipse at top left, #1a0f2e 0%, #0f172a 60%);
+  background-color: #0f172a;
 }
