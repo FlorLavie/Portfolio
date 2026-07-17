@@ -6,21 +6,21 @@ type SkillCardProps = {
 
 function SkillCard({ title, icon: Icon, skills }: SkillCardProps) {
   return (
-    <div className="relative h-full bg-[#283243] p-5 sm:p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-purple-400/50 transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-purple-500/10">
+    <div className="relative h-full bg-[#283243] p-4 sm:p-5 md:p-6 rounded-2xl border border-gray-700 hover:border-purple-400/50 transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-purple-500/10">
 
       {/* ICONO */}
-      <Icon className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-purple-400 mb-4 sm:mb-5" />
+      <Icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-purple-400 mb-3 sm:mb-4" />
 
       {/* TITULO */}
-      <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-5 text-white">
+      <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4 text-white">
         {title}
       </h3>
 
       {/* LISTA */}
-      <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base text-gray-300">
+      <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-300">
         {skills.map((skill, index) => (
-          <li key={index} className="flex items-center gap-2 sm:gap-3">
-            <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
+          <li key={index} className="flex items-center gap-2">
+            <span className="w-1.5 h-1.5 bg-purple-400 rounded-full"></span>
             {skill}
           </li>
         ))}

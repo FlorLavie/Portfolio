@@ -4,22 +4,24 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      title: "Sistema de Gestión para Centro de Actividades Físicas",
+      title: "Sistema de Gestión para Centro de Actividades Físicas - Trabajo en equipo de 5 personas bajo metodología Scrum",
       description:
         "Sistema web para la gestión integral de un centro de actividades: registro y login de usuarios, gestión de empleados, profesores y clientes, administración de clases, reservas y membresías.",
-      tech: ["React", "TypeScript", "Vite", "Rust"],
-      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop",
-      link: "https://github.com/canizafa/sistema-cef",
-      linkLabel: "Ver código",
+      tech: ["React", "TypeScript", "Vite", "Rust", "SQLx", "Git", "GitHub", "Postman", "IA Aplicada al Desarrollo", "Taiga"],
+      image: "/Panel_del_empleado.png",
+      link: "https://sistema-cef.vercel.app/admin/clases",
+      linkLabel: "Ver Proyecto",
+      githubLink: "https://github.com/canizafa/sistema-cef",
     },
     {
       title: "CMS de Testimonios",
       description:
-        "Aplicación web tipo CMS desarrollada en equipo de 4 personas bajo metodología ágil. Frontend con React, Vite y Tailwind CSS integrado a una API REST con Node.js y Express.",
-      tech: ["React", "TypeScript", "Node.js", "Express"],
-      image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&auto=format&fit=crop",
+        "**Integración de Servicios:** CMS para gestión de testimonios con roles diferenciados; integración de servicios externos para el manejo de media y contenidos (Cloudinary, YouTube API). **Stack y Arquitectura:** desarrollo full stack (React, Vite, Tailwind CSS) conectado a una API REST (Node.js/Express/PostgreSQL), documentada con Swagger. **Resultados y Metodología:** trabajo en equipo bajo metodología Scrum, con foco en la automatización de flujos de moderación de datos en tiempo real y en la implementación de un dashboard con filtros y paginación.",
+      tech: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Cloudinary", " YouTube API", "Swagger", "Git", "GitHub", "Trello", "IA Aplicada al Desarrollo", "Postman"],
+      image: "/testimonials.png",
       link: "https://testimonial-cms-main.vercel.app",
       linkLabel: "Ver proyecto",
+      githubLink: "https://github.com/leonasturizaga/NCs1125e44",
     },
   ];
 

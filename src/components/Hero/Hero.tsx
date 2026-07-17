@@ -17,10 +17,9 @@ function Hero() {
         </h2>
 
         <p className="mt-5 text-sm sm:text-base md:text-lg text-gray-300 leading-relaxed">
-          Estudiante avanzada de la carrera Analista Programador Universitario (UNLP) 
-          con formación en desarrollo Full Stack y conocimientos de Diseño en Comunicación Visual (UNLP). 
-          Participé en proyectos colaborativos desarrollando aplicaciones web con React, TypeScript, Node.js, SQL y Git. 
-          Valoro el trabajo en equipo y el aprendizaje continuo.
+          Estudiante avanzada de la carrera Analista Programador Universitario (UNLP) con formación en desarrollo Full Stack y conocimientos de Diseño en Comunicación Visual (UNLP). Me motiva el desarrollo de soluciones web, la integración de APIs y el aprendizaje de nuevas tecnologías. Participé en proyectos colaborativos desarrollando aplicaciones web con React, TypeScript, Node.js, SQL y Git. Valoro el trabajo en equipo y el aprendizaje continuo. 
+
+
           
         </p>
 
@@ -34,8 +33,8 @@ function Hero() {
           </a>
 
           <a
-            href="/Portfolio/Florencia-Lavie-CV.pdf"
-            download="Florencia_Lavie_CV.pdf"
+            href="/Portfolio/CV_Florencia_Lavie_FullStack.pdf"
+            download="CV_Florencia_Lavie_FullStack.pdf"
             className="border text-purple-400 border-purple-400 px-5 py-3 rounded-lg hover:bg-purple-400/10 transition text-center"
           >
             Descargar CV

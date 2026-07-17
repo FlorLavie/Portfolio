@@ -1,13 +1,52 @@
 import SkillCard from "./SkillsCard";
 import { motion } from "framer-motion";
-import { Code, Server, Database, Wrench } from "lucide-react";
+import {
+  Code,
+  Server,
+  Wrench,
+  Users,
+  ShoppingCart,
+  Monitor,
+} from "lucide-react";
 
 function Skills() {
   const skillsData = [
-    { title: "Frontend", icon: Code, skills: ["HTML", "CSS", "JavaScript", "React"] },
-    { title: "Backend", icon: Server, skills: ["Node.js", "Express", "APIs REST"] },
-    { title: "Base de Datos", icon: Database, skills: ["PostgreSQL"] },
-    { title: "Herramientas", icon: Wrench, skills: ["Postman", "Git", "GitHub", "Figma", "Adobe Illustrator", "Adobe Photoshop", "Visual Studio Code"] },
+    {
+      title: "Frontend",
+      icon: Code,
+      skills: ["React", "Tailwind CSS", "HTML", "CSS"],
+    },
+    {
+      title: "Backend y Base de datos",
+      icon: Server,
+      skills: ["Node.js", "Express.js", "REST APIs", "PostgreSQL", "SQL"],
+    },
+    {
+      title: "E-commerce y CMS",
+      icon:ShoppingCart,
+      skills: ["WordPress", "Shopify"],
+    },
+    {
+      title: "Herramientas",
+      icon: Wrench,
+      skills: ["Git", "GitHub", "Postman", "Trello", "Jira", "IA Aplicada al Desarrollo", "GTM"],
+    },
+    {
+      title: "Sistemas Operativos",
+      icon: Monitor,
+      skills: ["Linux", "Windows"],
+    },
+    {
+      title: "Habilidades Blandas",
+      icon: Users,
+      skills: [
+        "Trabajo en equipo",
+        "Metodologías ágiles (Scrum, Kanban)",
+        "Atención al detalle",
+        "Pensamiento analítico",
+        "Aprendizaje continuo",
+      ],
+    },
   ];
 
   return (
@@ -22,7 +61,7 @@ function Skills() {
         </div>
 
         {/* GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 md:gap-8 items-stretch">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-8 items-stretch">
           {skillsData.map((item, index) => (
             <motion.div
               key={item.title}
